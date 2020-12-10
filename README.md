@@ -1,5 +1,11 @@
 # VueJS-scrollable-table
 this project shows how to implement scrollable table in vueJS3 with different size columns
+
+I literally tried everything... 
+display: flex; on <tr> and the flex-basis on td/th - wasn't accurate and hard to work with,
+display: block; on thead and tbody - couldn't set sizes of columns in percentage normaly,
+also tried many other solutions that i found on the net, none of the work out for me, so i share this solution with you, hope it helps.
+      
 ```
 <template>
       <table>
