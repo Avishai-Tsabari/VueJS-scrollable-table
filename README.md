@@ -72,6 +72,9 @@ export default {
       width: 100%;
       tr {
         border-bottom: 1px solid #ccc;
+        td{
+          min-width: 0; //when working with fr it's a must
+        }
       }
     }
   }
