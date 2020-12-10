@@ -30,7 +30,7 @@ this project shows how to implement scrollable table in vueJS3 with different si
 export default {
   data() {
     return {
-      tableHeaders: ["col1", "col2", "col3"]
+      tableHeaders: ["col1", "col2", "col3"],
       cells: [
       {value1: "value", value2: "value", value3: "value"},
       {value1: "value", value2: "value", value3: "value"},
@@ -69,6 +69,5 @@ export default {
       }
     }
   }
-}
 </style>
 ```
